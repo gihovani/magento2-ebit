@@ -1,0 +1,5 @@
+<?php /** @var \Gg2\Ebit\Block\Html\Ebit $block */?>
+
+<?php if ($block->isEnableBanner() || $block->isEnableSelo()):?>
+<script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?<?= $block->getStoreId(); ?><?= ($block->showLightbox()) ? '&lightbox=true' : '&lightbox=false' ?>"></script>
+<?php endif; ?>

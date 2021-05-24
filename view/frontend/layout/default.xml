@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="footer">
+            <block class="Gg2\Ebit\Block\Html\Ebit" ifconfig="ebit/general/enable_selo" name="ebit.selo" template="Gg2_Ebit::html/selo.phtml" after="form.subscribe" />
+            <block class="Gg2\Ebit\Block\Html\Ebit" name="ebit.script" template="Gg2_Ebit::html/script.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

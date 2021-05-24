@@ -1,0 +1,32 @@
+{
+    "name": "gihovani/magento2-ebit",
+    "description": "Módulo Para Adicionar o Selo do Ebit em Lojas Magento2+",
+    "require": {
+        "php": "~7.3.0",
+        "magento/module-sales": "null",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gg2\\Ebit\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Gg2/Ebit"
+            ]
+        ]
+    }
+}
