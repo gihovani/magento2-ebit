@@ -59,6 +59,10 @@ Changelog
 - Ajustes na Configuração
 - Correção de bugs
 
+1.0.2
+- Ajustes na forma que o css é feito
+- Correção de bug
+
 
 Contribuições
 -------------
