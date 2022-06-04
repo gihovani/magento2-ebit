@@ -55,6 +55,10 @@ Changelog
 - Versão beta para testes.
 - Configuração da loja via painel admin
 
+1.0.1
+- Ajustes na Configuração
+- Correção de bugs
+
 
 Contribuições
 -------------
