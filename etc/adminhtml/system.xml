@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
+        <tab id="gg2_tab" translate="label" class="a-custom-css-class-to-style-this-tab" sortOrder="10">
+            <label>Gg2</label>
+        </tab>
         <section id="ebit" translate="label" sortOrder="330" showInDefault="1" showInWebsite="1" showInStore="1">
-            <class>separator-top</class>
+           <class>separator-top</class>
             <label>Ebit</label>
             <tab>gg2_tab</tab>
             <resource>Gg2_Ebit::ebit_config</resource>
