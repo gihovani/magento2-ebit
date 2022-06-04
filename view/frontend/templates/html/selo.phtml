@@ -2,3 +2,19 @@
 <div id="container-selo-ebit">
     <a id="seloEbit" href="http://www.ebit.com.br/<?= $block->getStoreId();?>" target="_blank" data-noop="redir(this.href);"></a>
 </div>
+<style scoped>
+#container-selo-ebit {
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: -300px;
+}
+@media only screen and (max-width: 640px) {
+    #container-selo-ebit {
+        float: initial;
+        margin-top: 20px;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+</style>
